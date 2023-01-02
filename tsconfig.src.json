@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "dist",
+  },
+  "exclude": [
+    "npm_scripts",
+    "openapi",
+    "test"
+  ],
+  "compileOnSave": true
+}

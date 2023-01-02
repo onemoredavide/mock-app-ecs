@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "express-openapi-validator/dist/framework",
+      "src/types"
+    ],
+    "esModuleInterop": true
+  },
+  "include": [
+    "npm_scripts",
+    "openapi",
+    "src",
+    "test"
+  ],
+  "compileOnSave": true
+}
